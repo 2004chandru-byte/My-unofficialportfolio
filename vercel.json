@@ -2,25 +2,6 @@
   "buildCommand": "echo 'Static site'",
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/css/portfolio.html" },
-    { "source": "/index.html", "destination": "/css/portfolio.html" },
-    { "source": "/home", "destination": "/css/portfolio.html" },
-    { "source": "/portfolio", "destination": "/css/portfolio.html" },
-    { "source": "/portfolio.html", "destination": "/css/portfolio.html" },
-    { "source": "/form", "destination": "/form.html" },
-    { "source": "/selector", "destination": "/selector.html" },
-    { "source": "/css", "destination": "/css/index.html" },
-    { "source": "/css/index", "destination": "/css/index.html" },
-    { "source": "/css/portfolio", "destination": "/css/portfolio.html" },
-    { "source": "/css/display", "destination": "/css/display.html" },
-    { "source": "/css/background", "destination": "/css/background.html" },
-    { "source": "/css/tailwind", "destination": "/css/tailwind.html" },
-    { "source": "/css/makeproject", "destination": "/css/makeproject.html" },
-    { "source": "/css/selectors", "destination": "/css/index.html" },
-    { "source": "/css/selectors1", "destination": "/css/index.html" },
-    { "source": "/css/selectors.css", "destination": "/css/cssselectors.css" },
-    { "source": "/css/selectors1.css", "destination": "/css/selectors1.css" },
-    { "source": "/css/webpage", "destination": "/css/webpage.html" },
-    { "source": "/indexpage", "destination": "/indexpage.html" }
+    { "source": "/(.*)", "destination": "/css/portfolio.html" }
   ]
 }
