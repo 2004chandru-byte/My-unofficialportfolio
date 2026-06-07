@@ -1,6 +1,9 @@
 {
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": ".",
   "rewrites": [
     { "source": "/", "destination": "/css/portfolio.html" },
+    { "source": "/index.html", "destination": "/css/portfolio.html" },
     { "source": "/home", "destination": "/css/portfolio.html" },
     { "source": "/portfolio", "destination": "/css/portfolio.html" },
     { "source": "/portfolio.html", "destination": "/css/portfolio.html" },
