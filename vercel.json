@@ -1,7 +1,0 @@
-{
-  "buildCommand": "echo 'Static site'",
-  "outputDirectory": ".",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/css/portfolio.html" }
-  ]
-}
