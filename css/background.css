@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT1LVP9ws13eFazgLKeorgiLfm9tK-P9NmEg&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

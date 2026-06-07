@@ -1,0 +1,123 @@
+/* Simple Selector */
+
+/* #heading1{
+    text-align: center;
+    font-family: monospace;
+    color: green;
+}
+
+.lists{
+    font-size: 24px;
+    color: rgb(50, 49, 49);
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: lower-roman;
+    text-align: center;
+} */
+
+/* *{
+    color: red;
+    background-color: violet;
+} */
+
+/* ---------------------------------------------- */
+/* Group Selector  */
+/* 
+h1,p{
+    color: purple;
+} */
+
+/* ---------------------------------------------- */
+
+/* Combinator Selector */
+
+/* #ul-list li{
+    color: orange;
+} */
+
+/* #ul-list > li{
+    color: tomato;
+} */
+
+/* 
+div + p{
+    background-color: red;
+    color: white;
+    padding: 10px;
+} */
+
+/* div ~ p{
+    background-color: red;
+    color: white;
+    padding: 10px;
+} */
+
+/* -------------------------------------- */
+
+/* Practice */
+/* 
+*{
+    color: red;
+}
+h1{
+    color: green;
+}
+#head{
+    color: blue;
+}
+.heading{
+    color: yellow !important;
+} */
+
+/* ----------------------------------- */
+
+/* Pseudo Class Selectors */
+/* 
+div > a:link{
+    color: black;
+}
+
+div > a:active{
+    color: orange;
+}
+div > a:visited{
+    color: aqua;
+}
+div > a:hover{
+    color: crimson;
+    text-decoration: none;
+    font-family: monospace;
+} */
+
+/* div > ol > li:first-child{
+    color: red;
+}
+
+div > ol > li:last-child{
+    color: blue;
+} */
+
+
+/* div > ol > li:nth-child(even){
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border-left: 10px solid red;
+}
+
+-------------------------------------------- */
+div > p::before{
+    content : "start:";
+    color: red
+}
+div > p::after{
+    content : "end:";
+    color: red
+}
+div > p::first-line{
+    content : "start:";
+    color: green;
+    background-color:aqua;
+}
